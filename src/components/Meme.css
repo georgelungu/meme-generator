@@ -1,0 +1,60 @@
+main{
+    padding: 36px;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-input{
+    border-radius: 5px;
+    border: 1px solid #d5d4d8;
+    text-indent: 5px;
+}
+
+.form-button{
+    font-family: 'Karla', sans-serif;
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.meme{
+    position: relative;
+}
+
+.meme-text-top,
+.meme-text-bottom {
+    position: absolute;
+    width: 100%; /* Ensure the text spans the entire width of the image */
+    text-align: center; /* Center the text horizontally */
+    color: white;
+    font-family: "Anton";
+    font-size: 55px;
+    letter-spacing: 4px;
+    text-shadow: -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 2px 2px 2px black; /* Create a border effect */
+}
+
+.meme-text-top{
+    top: 0; /* Position at the top of the image */
+}
+
+.meme-text-bottom{
+    bottom: 0; /* Position at the bottom of the image */
+}
+
+.meme-image{
+    display: flex;
+    max-width: 100%;
+    /* width: 688px; */
+    /* height: 450px; */
+    justify-content: center;
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
