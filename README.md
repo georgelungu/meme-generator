@@ -1,70 +1,79 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MEME GENERATOR
 
-## Available Scripts
+Small self explanatory web-app to deepen my understanding in REACT basics. 
 
-In the project directory, you can run:
+In building this app I have used real world APIs to fetch from a constantly updated [meme database](https://imgflip.com/api) which contains the most 100 most populars memes from the last 24h.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![App Screenshot](https://images4.imagebam.com/8e/85/a2/MEPME7L_o.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+[Press here to create your own meme!](https://meme-generator-six-ashen.vercel.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- API Calls for fetching most populars meme
+- Posibility to insert TOP and BOTTOM text for each meme
+- Ready to use
 
-### `npm run eject`
+## Future Improvements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- There are memes that require LEFT and RIGHT text that my code can't handle it yet.
+- Feel free to fork and improve the code if you feel so. It would be very appreciated!!!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Prerequisites:
 
-## Learn More
+    Before you begin, ensure that you have the following software installed on your system:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Git: You can download and install [Git](https://git-scm.com/), Node.js and npm: You can download and install [Node.js](https://nodejs.org/) which includes npm.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Clone the Repository
 
-### Code Splitting
+    Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Then, use the following command to clone your repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  git clone git@github.com:georgelungu/meme-generator.git
+```
 
-### Analyzing the Bundle Size
+3. Navigate to the Project Directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Change your current directory to the newly cloned project's directory: 
+    
+```bash
+  cd <repository_directory>
+```
 
-### Making a Progressive Web App
+Replace <repository_directory> with the name of the directory created when you cloned the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Install Dependencies
 
-### Advanced Configuration
+    Use npm to install the project's dependencies. Run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm install
+```
 
-### Deployment
+This command will read the package.json file in your project and install all the required packages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5. Start the Project:
 
-### `npm run build` fails to minify
+    Once the dependencies are installed, you can start your project by running the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm run start
+```
+
+This command will execute the script specified in your package.json file to start your application.
+
+6. Access the Application:
+
+    After running npm run start, your application should be up and running. Open a web browser and access it using the appropriate address and port (e.g., http://localhost:3000).
