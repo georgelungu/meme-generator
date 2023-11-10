@@ -18,8 +18,8 @@ In building this app I have used real world APIs to fetch from a constantly upda
 
 ## Features
 
-- API Calls for fetching most populars meme
-- Posibility to insert TOP and BOTTOM text for each meme
+- API Calls for fetching most popullars meme
+- Possibility to insert TOP and BOTTOM text for each meme
 - Ready to use
 
 ## Future Improvements
